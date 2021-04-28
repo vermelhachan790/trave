@@ -1,16 +1,23 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 int main()
 {
-	textcolor(GREEN);
-	textbackground(BLACK);
-	int contador=1;
-	while (contador <=99999){
-		printf("********************************###*****##$***********#\n");
-       contador ++;
+printf ("Alerta: se seu celular tem um processador fraco, recomendo que nao execute");
+int pass1;
+printf("Aperte 1 para continuar");
+scanf("%i", pass1);
+if (pass1 == 1)
+{
+printf("agora aperte 2 para o trava zap aparecer no console");
+}
+else{
+printf("ok");
+}
+int pass 2;
 
-		}
+
+		
 	
 	
 	
